@@ -106,16 +106,21 @@ p.selfIntroduction {
 }
 
 @media screen and (max-width: 800px) {
-    .introContainer {
-        display: block;
-    }
-    .aboutMeDesc, .aboutMePic {
-        display: inline-block;
-        width: 100%;
-    }
-    .aboutMePic {
-        height: 300px;
-    }
+  .introContainer {
+    display: block;
+  }
+  .aboutMeDesc, .aboutMePic {
+    display: inline-block;
+    width: 100%;
+  }
+  .aboutMePic {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+  }
 }
 /* Resume
 ---------------------------------------------------- */
