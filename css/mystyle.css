@@ -1,0 +1,159 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 10000px;
+}
+
+
+/* Header & Navigation
+---------------------------------------------------- */
+.menu-content>a {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FDFEFE;
+  padding-top: 25px;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.vincentwang {
+  margin: 5px 0px 5px 0px;
+  float: left;
+  text-align: center;
+}
+
+.vincentwang>a {
+  font-family: 'Julius Sans One', sans-serif;
+  display: inline;
+  font-size: 3em;
+  font-weight: 500;
+  color: #FDFEFE;
+  text-decoration: none;
+  border: 2px solid #FDFEFE;
+  padding: 1px 10px 0px 10px;
+  margin: 0;
+}
+
+/* Openning
+---------------------------------------------------- */
+.openning {
+  min-width: 1000px;
+}
+
+.openning img {
+  display: block;
+  max-width: 100%;
+}
+
+div.welcomeQuote {
+  margin: 5em 2em 6em 2em;
+  float: right;
+  top: 20%;
+  left: 7%;
+  text-align: center;
+}
+
+/* About Me
+---------------------------------------------------- */
+#infoWrapper {
+  background-color: #FFFFFF;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.introContainer {
+  margin: 0px;
+  width: 100%;
+  position: relative;
+  display: table;
+  min-height: 400px;
+}
+
+.aboutMeDesc {
+  display: table-cell;
+  width: 50%;
+  background-color: #354458;
+}
+
+.aboutMePic {
+  display: table-cell;
+  width: 50%;
+  background-image: url('../images/profile/skydeck.jpg');
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+p.selfIntroduction {
+  padding: 2em 2em 2em 2em;
+  vertical-align: middle;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+    .introContainer {
+        display: block;
+    }
+    .aboutMeDesc, .aboutMePic {
+        display: inline-block;
+        width: 100%;
+    }
+    .aboutMePic {
+        height: 300px;
+    }
+}
+/* Resume
+---------------------------------------------------- */
+.resume {
+  height: 10000px;
+}
+
+
+/* Layout
+---------------------------------------------------- */
+h1.title{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 2.5em;
+	color:#132530;
+	display: block;
+}
+
+hr.style-divider {
+    padding: 0;
+    border: none;
+    border-top: 2px solid #ccc;
+    color: #ccc;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto 50px auto;
+}
+hr.style-divider:after {
+    content: "";
+    width: 15px;
+  	height: 15px;
+    display: inline-block;
+    position: relative;
+    top: -.4em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+
+    background-color: #8b8b8b;
+  	transform: rotate(45deg);
+  	-ms-transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+}
