@@ -5,8 +5,21 @@ html, body {
 }
 
 
+/* Calligraphy
+---------------------------------------------------- */
+
+h2.title {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.7em;
+  color: #132530;
+  display: block;
+  padding: 20px 10px;
+}
+
+
 /* Header & Navigation
 ---------------------------------------------------- */
+
 .menu-content>a {
   font-weight: bold;
   font-size: 1.5em;
@@ -45,8 +58,10 @@ html, body {
   margin: 0;
 }
 
+
 /* Openning
 ---------------------------------------------------- */
+
 .openning {
   min-width: 1000px;
 }
@@ -64,8 +79,10 @@ div.welcomeQuote {
   text-align: center;
 }
 
+
 /* About Me
 ---------------------------------------------------- */
+
 #infoWrapper {
   background-color: #FFFFFF;
   width: 100%;
@@ -101,7 +118,8 @@ p.selfIntroduction {
   vertical-align: middle;
   color: #FFFFFF;
   text-decoration: none;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
   font-size: 18px;
 }
 
@@ -122,8 +140,11 @@ p.selfIntroduction {
     border-radius: 300px;
   }
 }
+
+
 /* Resume
 ---------------------------------------------------- */
+
 .resume {
   height: 10000px;
 }
@@ -131,34 +152,164 @@ p.selfIntroduction {
 
 /* Layout
 ---------------------------------------------------- */
-h1.title{
-	font-family: 'Julius Sans One', sans-serif;
-	font-size: 2.5em;
-	color:#132530;
-	display: block;
+
+h1.title {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 3em;
+  font-weight: 500;
+  color: #132530;
+  display: block;
+  padding: 30px 0px 0px 0px;
+}
+
+h4.title {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2em;
+  color: #132530;
+  display: block;
+  padding: 30px 0px 0px 0px;
 }
 
 hr.style-divider {
-    padding: 0;
-    border: none;
-    border-top: 2px solid #ccc;
-    color: #ccc;
-    text-align: center;
-    max-width: 400px;
-    margin: 0 auto 50px auto;
+  padding: 0;
+  border: none;
+  border-top: 2px solid #ccc;
+  color: #ccc;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto 50px auto;
 }
-hr.style-divider:after {
-    content: "";
-    width: 15px;
-  	height: 15px;
-    display: inline-block;
-    position: relative;
-    top: -.4em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
 
-    background-color: #8b8b8b;
-  	transform: rotate(45deg);
-  	-ms-transform: rotate(45deg);
-  	-webkit-transform: rotate(45deg);
+hr.style-divider:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: -.4em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background-color: #8b8b8b;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+/* Pinterest-like Grid
+---------------------------------------------------- */
+
+#pinBoot {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+
+#pinBoot img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.white-panel {
+  position: absolute;
+  background: white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+
+/*
+stylize any heading tags withing white-panel below
+*/
+
+.white-panel h1 {
+  font-size: 1em;
+}
+
+.white-panel h1 a {
+  color: #A92733;
+}
+
+.white-panel:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  margin-top: -5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* Acoordian
+---------------------------------------------------- */
+.accordion {
+  margin: 1em 0;
+  padding: 10px 10px;
+}
+
+.accordion h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.5em;
+  text-align: right;
+  line-height: 60px;
+  cursor: crosshair;
+  background-color: #8b8b8b;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: auto;
+  color: #fff;
+  position: relative;
+  padding: 20px 20px;
+  min-height: 100px;
+}
+.trx {
+  text-align: right;
+}
+
+.accordion h3:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+h3.blueAccordion:hover {
+  background-color: #28abe3;
+}
+
+h3.orangeAccordion:hover {
+  background-color: #da4624;
+}
+
+h3.greenAccordion:hover {
+  background-color: #219a71;
+}
+
+h3.yellowAccordion:hover {
+  background-color: #ffc107;
+}
+
+h3.navyAccordion:hover {
+  background-color: #354458;
+}
+
+h3.cryanAccordion:hover {
+  background-color: #29aba4;
+}
+
+h3.pinkAccordion:hover {
+  background-color: #eb7260;
+}
+
+h3.darkBlueAccordion:hover {
+  background-color: #4298b5;
+}
+
+.accordion div.pane {
+  padding: 5px 10px
+}
+
+.accordion div.pane p {
+  font-family: 'Open Sans', sans-serif;
 }
