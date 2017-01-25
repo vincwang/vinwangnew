@@ -2,6 +2,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
   height: 10000px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial,sans-serif;
 }
 
 
@@ -274,6 +275,14 @@ stylize any heading tags withing white-panel below
   transition: all 0.5s ease;
 }
 
+.accordion div.pane {
+  padding: 5px 10px
+}
+
+.accordion div.pane p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h3.blueAccordion:hover {
   background-color: #28abe3;
 }
@@ -304,12 +313,4 @@ h3.pinkAccordion:hover {
 
 h3.darkBlueAccordion:hover {
   background-color: #4298b5;
-}
-
-.accordion div.pane {
-  padding: 5px 10px
-}
-
-.accordion div.pane p {
-  font-family: 'Open Sans', sans-serif;
 }
