@@ -103,7 +103,7 @@ div.welcomeQuote {
 .aboutMeDesc {
   display: table-cell;
   width: 50%;
-  background-color: #354458;
+  background-color: #8b8b8b;
 }
 
 .aboutMePic {
@@ -140,6 +140,25 @@ p.selfIntroduction {
     width: 300px;
     border-radius: 300px;
   }
+}
+
+img.gallaryPic {
+	text-align: center;
+  max-width: 100%;
+}
+
+.newyork {
+  /* The image used */
+    background-image: url('../images/background/newyork.jpg');
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Experience

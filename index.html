@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Vincent Wang</title>
-<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/mystyle.css">
@@ -71,55 +71,29 @@
     <h2 class="title"> A peek into my life </h2>
   </center>
 
-<div class="row">
-  <div class="container">
-    <div class="col-sm-3 col-xs-6 portfolio">
-      <a href="images/gallary/qingyuanshan.jpg" data-lightbox="example-set" data-title="">
-        <img src="images/gallary/qingyuanshan-thumb.jpg" alt="" />
-      </a>
-    </div>
-    <div class="col-sm-3 col-xs-6 portfolio">
-      <a class="example-image-link" href="images/gallary/rafting.jpg" data-lightbox="example-set" data-title="">
-        <img class="example-image" src="images/gallary/rafting-thumb.jpg" alt="" />
-      </a>
-    </div>
-    <div class="col-sm-3 col-xs-6 portfolio">
-      <a class="example-image-link" href="images/gallary/colorrun.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close.">
-        <img class="example-image" src="images/gallary/colorrun-thumb.jpg" alt="" />
-      </a>
-    </div>
-    <div class="col-sm-3 col-xs-6 portfolio">
-      <a class="example-image-link" href="images/gallary/tennis.png" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close.">
-        <img class="example-image" src="images/gallary/tennis-thumb.png" alt="" />
-      </a>
-    </div>
+<div class="container">
+  <div class="col-sm-3 col-xs-6 portfolio">
+    <a href="images/gallary/qingyuanshan.jpg" data-lightbox="example-set" data-title="">
+      <img class="gallaryPic" src="images/gallary/qingyuanshan-thumb.jpg" alt="" />
+    </a>
+  </div>
+  <div class="col-sm-3 col-xs-6 portfolio">
+    <a class="example-image-link" href="images/gallary/rafting.jpg" data-lightbox="example-set" data-title="">
+      <img class="gallaryPic" src="images/gallary/rafting-thumb.jpg" alt="" />
+    </a>
+  </div>
+  <div class="col-sm-3 col-xs-6 portfolio">
+    <a class="example-image-link" href="images/gallary/colorrun.jpg" data-lightbox="example-set" data-title="">
+      <img class="gallaryPic" src="images/gallary/colorrun-thumb.jpg" alt="" />
+    </a>
+  </div>
+  <div class="col-sm-3 col-xs-6 portfolio">
+    <a class="example-image-link" href="images/gallary/tennis.png" data-lightbox="example-set" data-title="">
+      <img class="gallaryPic" src="images/gallary/tennis-thumb.png" alt="" />
+    </a>
   </div>
 </div>
 
-  <!-- <div class="row">
-    <div class="container">
-      <div class="col-sm-3 col-xs-6 portfolio">
-        <a href="images/gallary/qingyuanshan.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-            <img src="images/life/boating.jpg" class="img-fluid">
-        </a>
-      </div>
-      <div class="col-sm-3 col-xs-6 portfolio">
-        <a href="images/life/boating.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-            <img src="images/life/boating.jpg" class="img-fluid">
-        </a>
-      </div>
-      <div class="col-sm-3 col-xs-6 portfolio">
-        <a href="images/life/skydeck2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-            <img src="images/life/boating.jpg" class="img-fluid">
-        </a>
-      </div>
-      <div class="col-sm-3 col-xs-6 portfolio">
-        <a href="images/life/skydeck.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-            <img src="images/life/boating.jpg" class="img-fluid">
-        </a>
-      </div>
-    </div>
-  </div> -->
 
   <div class="container" id="WorkExperience">
     <center class="container row">
@@ -128,144 +102,147 @@
     </center>
   </div>
 
-  <div class ="back">
+  <div class="back">
     <img src="./images/background/workstation.jpg">
   </div>
 
 
 
-<div class="row">
+  <div class="row">
+    <div class="container">
+      <center>
+        <h4 class="title">Internships</h4>
+      </center>
+      <div class="col-md-6 accordion">
+        <h3 class="orangeAccordion" style="background-image: url(images/company/Lutron.png);">+</h3>
+        <div class="pane">
+          <p>
+            <strong style="float:left">Lutron Electronics</strong>
+            <strong style="float:right">Coopersburg, PA</strong>
+            <br/>
+            <strong style="float:left">Software Engineer Co-op</strong>
+            <strong style="float:right">January 2016 - August 2016</strong>
+            <hr style="height:1px;border:none;color:#333;background-color:#333;" /> I worked with the Caséta Wireless team on an IoT product for smart homes that controls lights, window shades and 3rd party products.
+            <br /><br />I developed a Schedule Recommendation System in Java that analyzes user activity data to find "trends" in customer usage. Also was I involved in development of a feature called "Smart Away", which randomly turns on and off selected
+            lights to make a home seem occupied while it's empty. I also worked with the marketing team to build a data analysis program in C# that processes system-wide data and automate reports in Excel.
+            <br /><br /><strong>Primary Technologies Utilized: iOS, Java, MySql, C#, Git, Xively</strong>
+          </p>
+        </div>
+
+        <h3 class="blueAccordion" style="background-image: url(images/company/parkingbee.png);">+</h3>
+        <div class="pane">
+          <p>
+            <strong style="float:left">Lutron Electronics</strong>
+            <strong style="float:right">Coopersburg, PA</strong>
+            <br/>
+            <strong style="float:left">Software Engineer Co-op</strong>
+            <strong style="float:right">October 2016 - present</strong>
+            <hr style="height:1px;border:none;color:#333;background-color:#333;" /> Currently working as a part-time fullstack web developer at ParkingBee, a parking marketplace startup.
+            <br /><br />I am working on a MEAN stack web application. My primary tasks include designing and developing front-end control flows to enhance good customer experiences.
+            <br /><br /><strong>Primary Technologies Utilized: Node.js, MongoDB, Express View Engine</strong>
+          </p>
+        </div>
+      </div>
+      <!-- left row accordion -->
+
+      <div class="col-md-6 accordion">
+        <h3 class="greenAccordion" style="background-image: url(images/company/edible.png);">+</h3>
+        <div class="pane">
+          <p>
+            <strong style="float:left">Lutron Electronics</strong>
+            <strong style="float:right">Coopersburg, PA</strong>
+            <br/>
+            <strong style="float:left">Software Engineer Co-op</strong>
+            <strong style="float:right">January 2016 - August 2016</strong>
+            <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
+          </p>
+        </div>
+
+        <h3 class="yellowAccordion" style="background-image: url(images/company/soshare.png);">+</h3>
+        <div class="pane">
+          <p>
+            <strong style="float:left">Lutron Electronics</strong>
+            <strong style="float:right">Coopersburg, PA</strong>
+            <br/>
+            <strong style="float:left">Software Engineer Co-op</strong>
+            <strong style="float:right">January 2016 - August 2016</strong>
+            <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
+          </p>
+        </div>
+      </div>
+      <!-- right row accordion -->
+    </div>
+    <!-- container for the 2-row accordions-->
+  </div>
+
   <div class="container">
-    <center>
-      <h4 class="title">Internships</h4>
+    <center class="container row">
+      <h4 class="title">Campus Involvement</h4>
     </center>
-    <div class="col-md-6 accordion">
-      <h3 class="orangeAccordion" style="background-image: url(images/company/Lutron.png);">+</h3>
-      <div class="pane">
-        <p>
-          <strong style="float:left">Lutron Electronics</strong>
-          <strong style="float:right">Coopersburg, PA</strong>
-          <br/>
-          <strong style="float:left">Software Engineer Co-op</strong>
-          <strong style="float:right">January 2016 - August 2016</strong>
-          <hr style="height:1px;border:none;color:#333;background-color:#333;" /> I worked with the Caséta Wireless team on an IoT product for smart homes that controls lights, window shades and 3rd party products.
-          <br /><br />I developed a Schedule Recommendation System in Java that analyzes user activity data to find "trends" in customer usage. Also was I involved in development of a feature called "Smart Away", which randomly turns on and off selected
-          lights to make a home seem occupied while it's empty. I also worked with the marketing team to build a data analysis program in C# that processes system-wide data and automate reports in Excel.
-          <br /><br /><strong>Primary Technologies Utilized: iOS, Java, MySql, C#, Git, Xively</strong>
-        </p>
-      </div>
-
-      <h3 class="blueAccordion" style="background-image: url(images/company/parkingbee.png);">+</h3>
-      <div class="pane">
-        <p>
-          <strong style="float:left">Lutron Electronics</strong>
-          <strong style="float:right">Coopersburg, PA</strong>
-          <br/>
-          <strong style="float:left">Software Engineer Co-op</strong>
-          <strong style="float:right">October 2016 - present</strong>
-          <hr style="height:1px;border:none;color:#333;background-color:#333;" /> Currently working as a part-time fullstack web developer at ParkingBee, a parking marketplace startup.
-          <br /><br />I am working on a MEAN stack web application. My primary tasks include designing and developing front-end control flows to enhance good customer experiences.
-          <br /><br /><strong>Primary Technologies Utilized: Node.js, MongoDB, Express View Engine</strong>
-        </p>
-      </div>
-    </div>
-    <!-- left row accordion -->
-
-    <div class="col-md-6 accordion">
-      <h3 class="greenAccordion" style="background-image: url(images/company/edible.png);">+</h3>
-      <div class="pane">
-        <p>
-          <strong style="float:left">Lutron Electronics</strong>
-          <strong style="float:right">Coopersburg, PA</strong>
-          <br/>
-          <strong style="float:left">Software Engineer Co-op</strong>
-          <strong style="float:right">January 2016 - August 2016</strong>
-          <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
-        </p>
-      </div>
-
-      <h3 class="yellowAccordion" style="background-image: url(images/company/soshare.png);">+</h3>
-      <div class="pane">
-        <p>
-          <strong style="float:left">Lutron Electronics</strong>
-          <strong style="float:right">Coopersburg, PA</strong>
-          <br/>
-          <strong style="float:left">Software Engineer Co-op</strong>
-          <strong style="float:right">January 2016 - August 2016</strong>
-          <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
-        </p>
-      </div>
-    </div>
-    <!-- right row accordion -->
   </div>
-  <!-- container for the 2-row accordions-->
-</div>
 
-<div class="container">
-  <center class="container row">
-    <h4 class="title">Campus Involvement</h4>
-  </center>
-</div>
+  <div class="row">
+    <div class="container">
+      <div class="col-md-6 accordion">
+        <h3 class="navyAccordion" style="text-align:center;">Career Envoy<span style="float:right;">+</span></h3>
+        <div class="pane">
+          <p>
+            <strong style="float:left">Lutron Electronics</strong>
+            <strong style="float:right">Coopersburg, PA</strong>
+            <br/>
+            <strong style="float:left">Software Engineer Co-op</strong>
+            <strong style="float:right">January 2016 - August 2016</strong>
+            <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
+          </p>
+        </div>
 
-<div class="row">
-  <div class="container">
-    <div class="col-md-6 accordion">
-      <h3 class="navyAccordion" style="text-align:center;">Career Envoy<span style="float:right;">+</span></h3>
-      <div class="pane">
-        <p>
-          <strong style="float:left">Lutron Electronics</strong>
-          <strong style="float:right">Coopersburg, PA</strong>
-          <br/>
-          <strong style="float:left">Software Engineer Co-op</strong>
-          <strong style="float:right">January 2016 - August 2016</strong>
-          <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
-        </p>
+        <h3 class="pinkAccordion" style="text-align:center;">Recruitment Chair<span style="float:right;">+</span></h3>
+        <div class="pane">
+          <p>
+            <strong style="float:left">Lutron Electronics</strong>
+            <strong style="float:right">Coopersburg, PA</strong>
+            <br/>
+            <strong style="float:left">Software Engineer Co-op</strong>
+            <strong style="float:right">January 2016 - August 2016</strong>
+            <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
+          </p>
+        </div>
       </div>
+      <!-- left row accordion -->
 
-      <h3 class="pinkAccordion" style="text-align:center;">Recruitment Chair<span style="float:right;">+</span></h3>
-      <div class="pane">
-        <p>
-          <strong style="float:left">Lutron Electronics</strong>
-          <strong style="float:right">Coopersburg, PA</strong>
-          <br/>
-          <strong style="float:left">Software Engineer Co-op</strong>
-          <strong style="float:right">January 2016 - August 2016</strong>
-          <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
-        </p>
+      <div class="col-md-6 accordion">
+        <h3 class="darkBlueAccordion" style="text-align:center;">CMPSC 101 TA<span style="float:right;">+</span></h3>
+        <div class="pane">
+          <p>
+            <strong style="float:left">Lutron Electronics</strong>
+            <strong style="float:right">Coopersburg, PA</strong>
+            <br/>
+            <strong style="float:left">Software Engineer Co-op</strong>
+            <strong style="float:right">January 2016 - August 2016</strong>
+            <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
+          </p>
+        </div>
+
+        <h3 class="cryanAccordion" style="text-align:center;">Dining Hall Worker<span style="float:right;">+</span></h3>
+        <div class="pane">
+          <p>
+            <strong style="float:left">Lutron Electronics</strong>
+            <strong style="float:right">Coopersburg, PA</strong>
+            <br/>
+            <strong style="float:left">Software Engineer Co-op</strong>
+            <strong style="float:right">January 2016 - August 2016</strong>
+            <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
+          </p>
+        </div>
       </div>
+      <!-- right row accordion -->
     </div>
-    <!-- left row accordion -->
-
-    <div class="col-md-6 accordion">
-      <h3 class="darkBlueAccordion" style="text-align:center;">CMPSC 101 TA<span style="float:right;">+</span></h3>
-      <div class="pane">
-        <p>
-          <strong style="float:left">Lutron Electronics</strong>
-          <strong style="float:right">Coopersburg, PA</strong>
-          <br/>
-          <strong style="float:left">Software Engineer Co-op</strong>
-          <strong style="float:right">January 2016 - August 2016</strong>
-          <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
-        </p>
-      </div>
-
-      <h3 class="cryanAccordion" style="text-align:center;">Dining Hall Worker<span style="float:right;">+</span></h3>
-      <div class="pane">
-        <p>
-          <strong style="float:left">Lutron Electronics</strong>
-          <strong style="float:right">Coopersburg, PA</strong>
-          <br/>
-          <strong style="float:left">Software Engineer Co-op</strong>
-          <strong style="float:right">January 2016 - August 2016</strong>
-          <hr style="height:1px;border:none;color:#333;background-color:#333;" /> laksdjflaksdjflajf
-        </p>
-      </div>
-    </div>
-    <!-- right row accordion -->
+    <!-- container for the 2-row accordions-->
   </div>
-  <!-- container for the 2-row accordions-->
-</div>
 
+
+  <div class="newyork">
+  </div>
 
   <div class="container" id="Project">
     <center class="container row">
@@ -277,54 +254,36 @@
     <div class="row">
       <section id="pinBoot">
 
-        <article class="white-panel"><img src="http://i.imgur.com/sDLIAZD.png" alt="">
-          <h4><a href="#">Title 1</a></h4>
+        <article class="white-panel"><img src="./images/project/boba.png" alt="">
+          <h4><a href="#">Boba Vehicles</a></h4>
           <p>The Online Partnerships Group (OPG) uses our portfolio of product solutions, including AdSense, DoubleClick for Publishers, DoubleClick AdExchange, AdMob, and more to help online publishers grow their businesses. We provide innovative, industry-leading
             online advertising solutions for publishers and app developers to proactively identify new monetization opportunities. Some of the largest publishers on the web rely on OPG products and our goal is to always exceed their expectations and strengthen
             our long-term partner relationships.
           </p>
         </article>
 
-        <article class="white-panel"> <img src="http://i.imgur.com/8lhFhc1.gif" alt="">
-          <h4><a href="#">Title 2</a></h4>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <article class="white-panel"><img src="./images/project/smartaway.png" alt="">
+          <h4><a href="#">Smart Away</a></h4>
+          <p>The Online Partnerships Group (OPG) uses our portfolio of product solutions, including AdSense, DoubleClick for Publishers, DoubleClick AdExchange, AdMob, and more to help online publishers grow their businesses. We provide innovative, industry-leading
+            online advertising solutions for publishers and app developers to proactively identify new monetization opportunities. Some of the largest publishers on the web rely on OPG products and our goal is to always exceed their expectations and strengthen
+            our long-term partner relationships.
+          </p>
         </article>
 
-        <article class="white-panel"> <img src="http://i.imgur.com/xOIMvAe.jpg" alt="">
-          <h4><a href="#">Title 3</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <article class="white-panel"><img src="./images/project/ea-map.png" alt="">
+          <h4><a href="#">Sales Map</a></h4>
+          <p>The Online Partnerships Group (OPG) uses our portfolio of product solutions, including AdSense, DoubleClick for Publishers, DoubleClick AdExchange, AdMob, and more to help online publishers grow their businesses. We provide innovative, industry-leading
+            online advertising solutions for publishers and app developers to proactively identify new monetization opportunities. Some of the largest publishers on the web rely on OPG products and our goal is to always exceed their expectations and strengthen
+            our long-term partner relationships.
+          </p>
         </article>
 
-
-        <article class="white-panel"> <img src="http://i.imgur.com/3gXW3L3.jpg" alt="">
-          <h4><a href="#">Title 4</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
-
-        <article class="white-panel"> <img src="http://i.imgur.com/o2RVMqm.jpg" alt="">
-          <h4><a href="#">Title 5</a></h4>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
-
-        <article class="white-panel"> <img src="http://i.imgur.com/kFFpuKA.jpg" alt="">
-          <h4><a href="#">Title 6</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        </article>
-
-
-
-        <article class="white-panel"><img src="http://i.imgur.com/E9RmLPA.jpg" alt="">
-          <h4><a href="#">Title 7</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
-
-        <article class="white-panel"> <img src="http://i.imgur.com/8lhFhc1.gif" alt="">
-          <h4><a href="#">Title 8</a></h4>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <article class="white-panel"><img src="./images/project/caseta.jpg" alt="">
+          <h4><a href="#">Recommendation System</a></h4>
+          <p>The Online Partnerships Group (OPG) uses our portfolio of product solutions, including AdSense, DoubleClick for Publishers, DoubleClick AdExchange, AdMob, and more to help online publishers grow their businesses. We provide innovative, industry-leading
+            online advertising solutions for publishers and app developers to proactively identify new monetization opportunities. Some of the largest publishers on the web rely on OPG products and our goal is to always exceed their expectations and strengthen
+            our long-term partner relationships.
+          </p>
         </article>
 
       </section>
