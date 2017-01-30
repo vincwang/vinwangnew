@@ -275,7 +275,7 @@ stylize any heading tags withing white-panel below
 
 .accordion h3 {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5em;
+  font-size: 1.8em;
   text-align: right;
   line-height: 60px;
   cursor: crosshair;
@@ -337,6 +337,31 @@ h3.pinkAccordion:hover {
 
 h3.darkBlueAccordion:hover {
   background-color: #4298b5;
+}
+
+/* Awards
+---------------------------------------------------- */
+#awardsList {
+  width: 600px;
+  margin: 0 auto;
+}
+ul.awards {
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px 40px 0 0;
+}
+
+ul.awards li {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+ul.awards li.awardDesc {
+  margin: 15px 0;
+  font-size: 1em;
+  margin-bottom: 30px;
 }
 
 /* Contact
