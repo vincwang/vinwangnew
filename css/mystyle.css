@@ -339,6 +339,20 @@ h3.darkBlueAccordion:hover {
   background-color: #4298b5;
 }
 
+h3.jadeAccordion:hover {
+  background-color: #7accc8;
+}
+
+h3.grassAccordion:hover {
+  background-color: #8bad39;
+}
+
+h3.jadeAccordion:hover {
+  background-color: #7accc8;
+}
+
+
+
 /* Awards
 ---------------------------------------------------- */
 #awardsList {
