@@ -355,6 +355,11 @@ h3.jadeAccordion:hover {
 
 /* Awards
 ---------------------------------------------------- */
+#awards {
+  background-color: #354458;
+  color: #fff;
+}
+
 #awardsList {
   width: 600px;
   margin: 0 auto;
@@ -424,7 +429,7 @@ ul.social li.github a:hover{color: #bc4c4c;}
 /* Footer
 ---------------------------------------------------- */
 footer{
-	background-color:#3F3E4C;
+	background-color:#354458;
 	text-align: center;
   	position: relative;
   	padding: 20px 15px 5px 15px;
