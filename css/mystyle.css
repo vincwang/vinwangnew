@@ -314,7 +314,8 @@ h3.jadeAccordion:hover {
   background-image: url('../images/life/speech.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 500px;
+  min-height: 600px;
+  color: #fff;
 }
 
 /* Awards
@@ -324,12 +325,12 @@ h3.jadeAccordion:hover {
   color: #fff;
 }
 
-#awardsList {
-  width: 600px;
+.itemsList {
+  width: 700px;
   max-width: 100%;
   margin: 0 auto;
 }
-ul.awards {
+ul.items {
 	display: inline;
 	list-style-type: none;
 	text-align: center;
@@ -337,14 +338,18 @@ ul.awards {
 	margin: 0px 40px 0 0;
 }
 
-ul.awards li {
-  font-size: 1.5em;
+ul.items li {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 1.6em;
   margin: 10px 0;
 }
 
-ul.awards li.awardDesc {
+ul.items li.itemDesc {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
   margin: 15px 0;
-  font-size: 1em;
+  font-size: 1.1em;
   margin-bottom: 30px;
 }
 
